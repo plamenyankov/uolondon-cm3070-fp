@@ -1,0 +1,26 @@
+
+            # prompt = f"""
+            #            Given the YouTube comment below, provide a sentiment analysis for fighters Usyk and Fury.
+            #            The sentiment should be categorized as positive, negative, or neutral for each fighter.
+            #            Assume the comment has been cleaned and lemmatized.
+            #
+            #            Examples:
+            #            comment 1: "this is gon na be a banger...curious about what form fury will be in."
+            #            - positive for Usyk, neutral for Fury.
+            #
+            #            comment 2: "this is just a temporary bluff...not fight usyk afterwards."
+            #            - neutral for Usyk, negative for Fury.
+            #
+            #            comment 3: "usyk get tired in the clinch...tyson and wilder go through him."
+            #            - negative for Usyk, positive for Fury.
+            #
+            #            Please analyze the given comment in a similar manner and provide the response in the following JSON format:
+            #            {{
+            #              "index": "{i}",
+            #              "usyk_sentiment": "[sentiment]",
+            #              "fury_sentiment": "[sentiment]"
+            #            }}
+            #
+            #            Comment:
+            #            {i}, {e['clean_comment']}, {e['category']}
+            #            """
