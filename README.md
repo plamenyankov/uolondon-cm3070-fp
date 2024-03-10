@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the code and datasets for a sentiment analysis project focused on YouTube comments related to boxing. The project utilizes Natural Language Processing (NLP) techniques to analyze sentiments expressed about boxers, with a case study on the match between Tyson Fury and Oleksandr Usyk.
 ## Presentation
-[![YouTube Presentation](images/main.png)]([http://www.youtube.com/watch?v=video_id](https://www.youtube.com/watch?v=7kUO0I1IzXA))
+[![YouTube Presentation](images/main.png)](https://www.youtube.com/watch?v=7kUO0I1IzXA)
 
 ## Structure
 The repository is organized as follows:
